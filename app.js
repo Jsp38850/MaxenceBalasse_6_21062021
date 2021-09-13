@@ -1,15 +1,20 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const path = require('path');
+const helmet = require('helmet');
+const rateLimit = require("express-rate-limit");
 
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 100 // limite chaque IP à 100 requêtes par windowMs
+  });
+  
 
 const sauceRoutes = require('./routes/sauce')
 const userRoutes = require('./routes/user')
-
-mongoose
-  .connect("mongodb+srv://Admin_delete:Piquante_delete6@cluster0.xgxav.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log("Connexion à MongoDB réussie !"))
-  .catch(() => console.log("Connexion à MongoDB échouée !"));
+  
+require('dotenv').config();
+const port = process.env.PORT;
 
 const app = express();
 
@@ -26,6 +31,10 @@ app.use(
     extended: true,
   })
 );
+
+app.use(limiter);
+
+app.use(helmet());
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
