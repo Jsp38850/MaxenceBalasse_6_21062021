@@ -46,22 +46,25 @@ Lien repo frontend:  https://github.com/OpenClassrooms-Student-Center/dwj-projet
 
 Il s'agit d'un projet de création d'API sécurisée pour une application d'avis gastronomiques, elle contient :
 
-Un système d'authentification
-Une requête de liste des sauces sur la page principale
-Un module d'ajout de sauce
-Un module de modification/suppresion de sauce (pour son créateur)
+Un système d'authentification<br />
+Une requête de liste des sauces sur la page principale<br />
+Un module d'ajout de sauce<br />
+Un module de modification/suppresion de sauce (pour son créateur)<br />
 Un système de "Like/Dislike"
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Frameworks utilisé pour la réalisation du projet : 
+
 * [Bootstrap](https://getbootstrap.com)
+<!--
 * [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Laravel](https://laravel.com)-->
 
 
 
 <!-- GETTING STARTED -->
+<!--
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -91,10 +94,10 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 
-
+-->
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -129,5 +132,5 @@ Celui-ci devrait éxecuter une instance du serveur sur le port 4200 de la machin
 [utilisation]
 
 Une fois que tous les modules sont chargés/compilés;
-Depuis votre navigateur internet veuillez vous rendre sur le site suivant : http://localhost:4200/
+Depuis votre navigateur internet veuillez vous rendre sur le site suivant : http://localhost:4200/ -->
 
