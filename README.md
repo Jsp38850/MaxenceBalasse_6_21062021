@@ -7,10 +7,10 @@ Lien repo frontend:  https://github.com/OpenClassrooms-Student-Center/dwj-projet
 <br />
 <p align="center">
   
-  <h3 align="center">Construisez une API sécurisée pour une application d'avis gastronomiques</h3>
+  <h3 align="center">Piiquante</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Construisez une API sécurisée pour une application d'avis gastronomiques
     <br />
     <a href="https://github.com/Jsp38850/MaxenceBalasse_6_21062021/issues">Signaler un bug</a>
   </p>
@@ -20,36 +20,34 @@ Lien repo frontend:  https://github.com/OpenClassrooms-Student-Center/dwj-projet
 
 <!-- Sommaire -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Table des matières</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">À propos du projet</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Construit avec</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Lancement</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#prerequisites">Conditions préalables</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#roadmap">Feuille de route</a></li>
+    <li><a href="#contributing">Contribuant</a></li>
+    <li><a href="#license">Licence</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#acknowledgements">Remerciements</a></li>
   </ol>
 </details>
 
 
 
-<!-- ABOUT THE PROJECT -->
+<!--A propos -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
